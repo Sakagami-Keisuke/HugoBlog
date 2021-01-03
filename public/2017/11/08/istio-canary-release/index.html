@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://relaxed-swirles-2507d0.netlify.app/m/img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://relaxed-swirles-2507d0.netlify.app/m/img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://relaxed-swirles-2507d0.netlify.app/img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://relaxed-swirles-2507d0.netlify.app/img/home-bg-jeep.jpg" />
     
 
     
@@ -32,22 +32,22 @@
     
 
     <meta name="keyword"  content="赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
-    <link rel="shortcut icon" href="/m/img/favicon.ico">
+    <link rel="shortcut icon" href="https://relaxed-swirles-2507d0.netlify.app/img/favicon.ico">
 
     <title>采用Istio实现灰度发布(金丝雀发布)-赵化冰的博客 | Zhaohuabing Blog</title>
 
-    <link rel="canonical" href="/m/2017/11/08/istio-canary-release/">
+    <link rel="canonical" href="https://relaxed-swirles-2507d0.netlify.app/2017/11/08/istio-canary-release/">
 
-    <link rel="stylesheet" href="/m/css/iDisqus.min.css"/>
-
-    
-    <link rel="stylesheet" href="/m/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://relaxed-swirles-2507d0.netlify.app/css/iDisqus.min.css"/>
 
     
-    <link rel="stylesheet" href="/m/css/hux-blog.min.css">
+    <link rel="stylesheet" href="https://relaxed-swirles-2507d0.netlify.app/css/bootstrap.min.css">
 
     
-    <link rel="stylesheet" href="/m/css/zanshang.css">
+    <link rel="stylesheet" href="https://relaxed-swirles-2507d0.netlify.app/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="https://relaxed-swirles-2507d0.netlify.app/css/zanshang.css">
 
     
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
@@ -57,13 +57,13 @@
 
     
     
-    <script src="/m/js/jquery.min.js"></script>
+    <script src="https://relaxed-swirles-2507d0.netlify.app/js/jquery.min.js"></script>
 
     
-    <script src="/m/js/bootstrap.min.js"></script>
+    <script src="https://relaxed-swirles-2507d0.netlify.app/js/bootstrap.min.js"></script>
 
     
-    <script src="/m/js/hux-blog.min.js"></script>
+    <script src="https://relaxed-swirles-2507d0.netlify.app/js/hux-blog.min.js"></script>
 
     
     
@@ -82,7 +82,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/m/">ほげほげBlog</a>
+            <a class="navbar-brand" href="https://relaxed-swirles-2507d0.netlify.app/">ほげほげBlog</a>
         </div>
 
         
@@ -91,33 +91,33 @@
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/m/">Home</a>
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/">Home</a>
                     </li>
                     
                         
                         <li>
-                            <a href="/m/categories/life">life</a>
+                            <a href="https://relaxed-swirles-2507d0.netlify.app/categories/life">life</a>
                         </li>
                         
                         <li>
-                            <a href="/m/categories/tech">tech</a>
+                            <a href="https://relaxed-swirles-2507d0.netlify.app/categories/tech">tech</a>
                         </li>
                         
                         <li>
-                            <a href="/m/categories/tips">tips</a>
+                            <a href="https://relaxed-swirles-2507d0.netlify.app/categories/tips">tips</a>
                         </li>
                         
                     
                     
 		    
-                        <li><a href="/m/top/books/">BOOKS</a></li>
+                        <li><a href="https://relaxed-swirles-2507d0.netlify.app/top/books/">BOOKS</a></li>
                     
-                        <li><a href="/m/top/about/">ABOUT</a></li>
+                        <li><a href="https://relaxed-swirles-2507d0.netlify.app/top/about/">ABOUT</a></li>
                     
 
                     
 		    <li>
-                        <a href="/m/search">SEARCH <img src="/m/img/search.png" height="15" style="cursor: pointer;" alt="Search"></a>
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/search">SEARCH <img src="https://relaxed-swirles-2507d0.netlify.app/img/search.png" height="15" style="cursor: pointer;" alt="Search"></a>
 		    </li>
                     
                 </ul>
@@ -171,7 +171,7 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/m/tags/istio" title="Istio">
+                        <a class="tag" href="https://relaxed-swirles-2507d0.netlify.app/tags/istio" title="Istio">
                             Istio
                         </a>
                         
@@ -315,12 +315,12 @@ reviews-v1-1360980140-0zs9z       2/2       Running   0          2m
 </code></pre><p>在浏览器中打开应用程序页面，地址为istio-ingress的External IP。由于V1版本的reviews服务并不会调用rating服务，因此可以看到Product 页面显示的是不带星级的评价信息。</p>
 <p><code>http://10.12.25.116/productpage</code><br>
 
-  <img src="/https://img.zhaohuabing.com/in-post/istio-canary-release/product-page-default.PNG" alt="">
+  <img src="https://relaxed-swirles-2507d0.netlify.app/https://img.zhaohuabing.com/in-post/istio-canary-release/product-page-default.PNG" alt="">
 
 </p>
 <p>此时系统中微服务的部署情况如下图所示（下面的示意图均忽略和本例关系不大的details和ratings服务）：
 
-  <img src="/https://img.zhaohuabing.com/in-post/istio-canary-release/canary-example-only-v1.PNG" alt="">
+  <img src="https://relaxed-swirles-2507d0.netlify.app/https://img.zhaohuabing.com/in-post/istio-canary-release/canary-example-only-v1.PNG" alt="">
 
 </p>
 <h3 id="部署v2版本的reviews服务">部署V2版本的reviews服务</h3>
@@ -479,7 +479,7 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
 <div class="zs-modal-box">
 	<div class="zs-modal-head">
 		<button type="button" class="close">×</button>
-		<span class="author"><a href="https://relaxed-swirles-2507d0.netlify.app/m"><img src="/m/img/favicon.png" />ほげほげBlog</a></span>
+		<span class="author"><a href="https://relaxed-swirles-2507d0.netlify.app"><img src="https://relaxed-swirles-2507d0.netlify.app/img/favicon.png" />ほげほげBlog</a></span>
         
 	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
 		
@@ -497,15 +497,15 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
 		<div class="zs-modal-pay">
 			<button class="btn btn-bred" id="pay-text">2元</button>
 			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
-			<img src="/m/img/reward/wechat-2.png"  id="pay-image"/>
+			<img src="https://relaxed-swirles-2507d0.netlify.app/img/reward/wechat-2.png"  id="pay-image"/>
 		</div>
 	</div>
 	<div class="zs-modal-footer">
-		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/m/img/reward/wechat-btn.png"/></span></label>
-		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/m/img/reward/alipay-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="https://relaxed-swirles-2507d0.netlify.app/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="https://relaxed-swirles-2507d0.netlify.app/img/reward/alipay-btn.png"/></span></label>
 	</div>
 </div>
-<script type="text/javascript" src="/m/js/reward.js"></script>
+<script type="text/javascript" src="https://relaxed-swirles-2507d0.netlify.app/js/reward.js"></script>
 
                 
 
@@ -513,13 +513,13 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2017/11/07/istio-traffic-shifting/" data-toggle="tooltip" data-placement="top" title="使用Istio实现应用流量转移">&larr;
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/2017/11/07/istio-traffic-shifting/" data-toggle="tooltip" data-placement="top" title="使用Istio实现应用流量转移">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/2017/11/28/access-application-from-outside/" data-toggle="tooltip" data-placement="top" title="如何从外部访问Kubernetes集群中的应用？">Next
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/2017/11/28/access-application-from-outside/" data-toggle="tooltip" data-placement="top" title="如何从外部访问Kubernetes集群中的应用？">Next
                             Post &rarr;</a>
                     </li>
                     
@@ -541,14 +541,14 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
                 
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <h5><a href="https://relaxed-swirles-2507d0.netlify.app/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                         
                         
                         
                         
                         
-                        <a href="/m/tags/docker" title="docker">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/docker" title="docker">
                             docker
                         </a>
                         
@@ -556,19 +556,19 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
                         
                         
                         
-                        <a href="/m/tags/istio" title="istio">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/istio" title="istio">
                             istio
                         </a>
                         
                         
                         
-                        <a href="/m/tags/kubernetes" title="kubernetes">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/kubernetes" title="kubernetes">
                             kubernetes
                         </a>
                         
                         
                         
-                        <a href="/m/tags/microservice" title="microservice">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/microservice" title="microservice">
                             microservice
                         </a>
                         
@@ -576,19 +576,19 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
                         
                         
                         
-                        <a href="/m/tags/security" title="security">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/security" title="security">
                             security
                         </a>
                         
                         
                         
-                        <a href="/m/tags/service-mesh" title="service-mesh">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/service-mesh" title="service-mesh">
                             service-mesh
                         </a>
                         
                         
                         
-                        <a href="/m/tags/tips" title="tips">
+                        <a href="https://relaxed-swirles-2507d0.netlify.app/tags/tips" title="tips">
                             tips
                         </a>
                         
@@ -658,7 +658,7 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
 		    
                     
                     <li>
-                        <a target="_blank" href="/m/your%20wechat%20qr%20code%20image">
+                        <a target="_blank" href="https://relaxed-swirles-2507d0.netlify.app/your%20wechat%20qr%20code%20image">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-wechat fa-stack-1x fa-inverse"></i>
