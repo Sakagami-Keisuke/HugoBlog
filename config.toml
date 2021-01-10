@@ -81,9 +81,9 @@ enableRobotsTXT = false
 # フロントマター設定 Hugoがコンテンツページに日付を割り当てる方法を構成
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
-expiryDate = ["expiryDate"]
-lastmod = [":git", "lastmod", "date", "publishDate"]
-publishDate = ["publishDate", "date"]
+# expiryDate = ["expiryDate"]
+# lastmod = [":git", "lastmod", "date", "publishDate"]
+# publishDate = ["publishDate", "date"]
 # 脚注アンカーの接頭辞テキスト
 footnoteAnchorPrefix = ""
 # 脚注の戻りリンクに表示するテキスト
