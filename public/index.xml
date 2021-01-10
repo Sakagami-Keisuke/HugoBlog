@@ -94,29 +94,6 @@
     </item>
     
     <item>
-      <title>使用Algolia为Gitpage博客提供站内搜索</title>
-      <link>https://relaxed-swirles-2507d0.netlify.app/2018/05/21/algolia-integration-with-jekyll/</link>
-      <pubDate>Mon, 21 May 2018 11:00:00 +0000</pubDate>
-      
-      <guid>https://relaxed-swirles-2507d0.netlify.app/2018/05/21/algolia-integration-with-jekyll/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;This series of articles are my notes of &amp;ldquo;Bitcoin and Cryptocurrency Technologies&amp;rdquo; online course.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;table-of-content&#34;&gt;Table of Content&lt;/h2&gt;
-&lt;p&gt;{:.no_toc}&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Table of Content
-{:toc}&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;scrooge-coin-transaction&#34;&gt;Scrooge Coin Transaction&lt;/h2&gt;
-&lt;p&gt;Scrooge Coin programming assignment is a little bit tricky, the video of this lesson hasn&amp;rsquo;t explained some implementation details. To help you understand the transaction data structure used in Scrooge Coin, I draw this diagram:
-
-  &lt;img src=&#34;https://img.zhaohuabing.com/in-post/2018-5-20-cryptocurrency_week1_scroogecoin/scroogecoin.png&#34; alt=&#34;Scrooge Coin&#34;&gt;
-
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>川西秘境探险</title>
       <link>https://relaxed-swirles-2507d0.netlify.app/2018/05/01/may-day-jiulonghu/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
@@ -280,16 +257,7 @@ export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://relaxed-swirles-2507d0.netlify.app/top/about/</guid>
-      <description>Huabing Zhao is an ICT veteran with a passion for open source. He has a solid experience in the telecommunication and information technology industry for more than 17 years. Throughout his career, he has built a number of large-scale, cross-country OSS/BSS platforms/systems and operation tools, most of them are still running in productions. He loves open source and has been contributing to a variety of open source projects, including Istio(Service</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://relaxed-swirles-2507d0.netlify.app/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://relaxed-swirles-2507d0.netlify.app/top/books/</guid>
-      <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.coursera.org/lear</description>
+      <description>KEISUKE SAKAGAMI と申します 2020年7月からweb系受託企業でPGをしてます 駆け出しエンジニアです 38歳、新人おじさんです 新卒から公務員でしたが、人生は</description>
     </item>
     
   </channel>
