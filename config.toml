@@ -231,18 +231,8 @@ twitter = "https://twitter.com/slope_top_kei"
 
 # メニュー追加
 [[params.addtional_menus]]
-href = "/top/books/"
-title = "健康"
-[[params.addtional_menus]]
-href = "/top/books/"
-title = "神社"
-[[params.addtional_menus]]
-href = "/top/books/"
-title = "読書"
-[[params.addtional_menus]]
 href = "/top/about/"
 title = "自己紹介"
-
 
 [outputFormats.Algolia]
 baseName = "algolia"
