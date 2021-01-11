@@ -171,6 +171,8 @@ home = ["HTML", "RSS", "Algolia"]
 # header_image = "img/home-bg-jeep.jpg"
 header_image = "img/dragon.jpg"
 
+images = ["/static/img/avater-cat.png"]
+
 SEOTitle = "ほげほげBlog"
 
 description = "ぼちぼちブログをあっぷしていきます"
@@ -250,3 +252,4 @@ endLevel = 2
 startLevel = 1
 [markup.highlight]
 style = "dracula"
+
