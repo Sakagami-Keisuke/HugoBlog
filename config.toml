@@ -168,9 +168,8 @@ watch = false
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-logo         = "img/avater-cat.png"
-header_image = "img/avater-cat.png"
-# header_image = "img/dragon.jpg"
+thumbnail    = "img/dragon.jpg"
+header_image = "img/post-bg-coffee.jpeg"
 images       = ["/static/img/avater-cat.png"]
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"

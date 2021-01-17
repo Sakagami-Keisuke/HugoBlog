@@ -1,0 +1,17 @@
+.post-container img{
+  float: left;
+}
+
+.post-title {
+  float: left;
+  left: 10px;
+}
+
+.customize-self{
+  height: 100px;
+  width: 700px;
+}
+
+.blank{
+  float: left;
+}
