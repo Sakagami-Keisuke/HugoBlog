@@ -7,7 +7,7 @@
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:type" content="article">
 
-    {{ if .Params.thumbnail }}
+    {{ if isset .Params "thumbnail" }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
     <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
     {{ else }}
@@ -15,7 +15,7 @@
     <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" />
     {{ end }}
 
-    {{ if .Params.title }}
+    {{ if isset .Params "title" }}
     <meta name="title" content="{{ .Params.title }}" />
     <meta property="og:title" content="{{ .Params.title }}" />
     <meta property="twitter:title" content="{{ .Params.title }}" />
