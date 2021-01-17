@@ -170,7 +170,6 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
 #twitter/sumbnail優先表示(head.html)
 thumbnail    = "img/coffee.jpg"
-
 # トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
 header_image = "img/dragon.jpg"
 
@@ -179,10 +178,10 @@ header_image = "img/dragon.jpg"
 
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"
-description  = "ぼちぼちブログをあっぷしていきます"
+image_404    = "img/404.jpg"
+description  = ""
 keyword      = ""
 slogan       = ""
-image_404    = "img/404-bg.jpg"
 
 omit_categories = false
 title_404       = "404 ERROR"
