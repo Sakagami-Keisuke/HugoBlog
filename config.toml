@@ -173,8 +173,6 @@ thumbnail    = "img/coffee.jpg"
 # トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
 header_image = "img/dragon.jpg"
 
-# 記事一覧アイキャッチ画像
-# images       = ["/static/img/cat.png"]
 
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"

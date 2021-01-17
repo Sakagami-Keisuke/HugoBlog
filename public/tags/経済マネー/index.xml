@@ -8,7 +8,16 @@
     <language>ja-jp</language>
     <lastBuildDate>Mon, 11 Jan 2021 12:27:12 +0900</lastBuildDate><atom:link href="https://relaxed-swirles-2507d0.netlify.app/tags/%E7%B5%8C%E6%B8%88%E3%83%9E%E3%83%8D%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>article_title:記事のタイトルテキスト</title>
+      <title>article_title:記事1のタイトルテキスト</title>
+      <link>https://relaxed-swirles-2507d0.netlify.app/post/20210111/</link>
+      <pubDate>Mon, 11 Jan 2021 12:27:12 +0900</pubDate>
+      
+      <guid>https://relaxed-swirles-2507d0.netlify.app/post/20210111/</guid>
+      <description>はじめに 結論 ~~~について ~~~~問題点 ~~~~解決策 まとめ</description>
+    </item>
+    
+    <item>
+      <title>article_title:記事2のタイトルテキスト</title>
       <link>https://relaxed-swirles-2507d0.netlify.app/post/20210111-2/</link>
       <pubDate>Mon, 11 Jan 2021 12:27:12 +0900</pubDate>
       
@@ -17,20 +26,11 @@
     </item>
     
     <item>
-      <title>article_title:記事のタイトルテキスト</title>
+      <title>article_title:記事3のタイトルテキスト</title>
       <link>https://relaxed-swirles-2507d0.netlify.app/post/20210111-3/</link>
       <pubDate>Mon, 11 Jan 2021 12:27:12 +0900</pubDate>
       
       <guid>https://relaxed-swirles-2507d0.netlify.app/post/20210111-3/</guid>
-      <description>はじめに 結論 ~~~について ~~~~問題点 ~~~~解決策 まとめ</description>
-    </item>
-    
-    <item>
-      <title>article_title:記事のタイトルテキスト</title>
-      <link>https://relaxed-swirles-2507d0.netlify.app/post/20210111/</link>
-      <pubDate>Mon, 11 Jan 2021 12:27:12 +0900</pubDate>
-      
-      <guid>https://relaxed-swirles-2507d0.netlify.app/post/20210111/</guid>
       <description>はじめに 結論 ~~~について ~~~~問題点 ~~~~解決策 まとめ</description>
     </item>
     

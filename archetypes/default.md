@@ -5,8 +5,8 @@ description: "article_discription:記事の概要説明文"
 date:        "2021-01-11T12:27:12+09:00"
 author:      "KEISUKE SAKAGAMI"
 image:       "img/sozai.jpg"
+eyecatch:    "img/sozai.jpg"
 # thumbnail:   "img/avater-cat.png"
-# eyecatch:    "img/avater-cat.png"
 # ogimage:     "img/avater-cat.png"
 # table of content
 toc:         true
