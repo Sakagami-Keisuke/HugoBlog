@@ -169,8 +169,8 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
 
-# トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
-header_image = "img/sozai.jpg"
+# twittercard画像設定で参照(Blog/layouts/partials/head.html)
+header_image = "img/coffee.jpg"
 
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"
