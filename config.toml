@@ -168,9 +168,15 @@ watch = false
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
+#twitter/sumbnail優先表示(head.html)
 thumbnail    = "img/dragon.jpg"
+
+# トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
 header_image = "img/post-bg-coffee.jpeg"
+
+# 記事一覧アイキャッチ画像
 images       = ["/static/img/avater-cat.png"]
+
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"
 description  = "ぼちぼちブログをあっぷしていきます"
