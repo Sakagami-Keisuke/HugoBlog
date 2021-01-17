@@ -6,8 +6,7 @@ date:        {{ .Date }}
 author:      "KEISUKE SAKAGAMI"
 image:       "img/sozai.jpg"
 eyecatch:    "img/sozai.jpg"
-thumbnail:   "img/sozai.jpg"
-# ogimage:     "img/avater-cat.png"
+
 # table of content
 toc:         true
 #true=未完成記事扱い  hugo -Dで表示
