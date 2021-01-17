@@ -171,9 +171,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 # トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
 header_image = "img/coffee.jpg"
-
-meta_image   = "/thumbnails/coffee.jpg"
-# thumbnail    = "coffee.jpg"
+meta_image   = "img/uma.jpg"
 
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"

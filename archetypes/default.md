@@ -6,7 +6,7 @@ date:        {{ .Date }}
 author:      "KEISUKE SAKAGAMI"
 image:       "img/sozai.jpg"
 eyecatch:    "img/sozai.jpg"
-thumbnail:   "img/coffee.jpg"
+thumbnail:   "img/sozai.jpg"
 # ogimage:     "img/avater-cat.png"
 # table of content
 toc:         true
