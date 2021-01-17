@@ -169,10 +169,10 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
 #twitter/sumbnail優先表示(head.html)
-# thumbnail    = "img/twittercard.jpg"
+thumbnail    = "img/twittercard.jpg"
 
 # トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
-header_image = "img/dragon.jpg"
+header_image = "img/sozai.jpg"
 
 
 customCSS    = ["/css/custom_post.css"]

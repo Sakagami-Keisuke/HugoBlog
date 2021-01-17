@@ -3,22 +3,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <meta name="thumbnail" content="{{.Site.Params.logo}}"/> -->
-
     <!-- start ogp -->
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:type" content="article">
 
-    <!-- {{ if .Params.thumbnail }} -->
-    <!-- <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}"> -->
+    {{ if .Params.thumbnail }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
     <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
-    <!-- <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" /> -->
-
-    <!-- {{ else }} -->
-    <!-- <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}">
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" /> -->
-    <!-- {{ end }} -->
+    {{ else }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" />
+    {{ end }}
 
     {{ if .Params.title }}
     <meta name="title" content="{{ .Params.title }}" />
@@ -74,6 +69,9 @@
 <!-- カスタムCSS -->
     <!--  Custom CSS  -->
     <link rel="stylesheet" href="{{ "css/custom_post.css" | relURL }}">
+
+
+    
 
     <!-- {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
