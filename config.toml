@@ -168,24 +168,19 @@ watch = false
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
+logo         = "img/avater-cat.png"
+header_image = "img/avater-cat.png"
+# header_image = "img/dragon.jpg"
+images       = ["/static/img/avater-cat.png"]
+customCSS    = ["/css/custom_post.css"]
+SEOTitle     = "ほげほげBlog"
+description  = "ぼちぼちブログをあっぷしていきます"
+keyword      = ""
+slogan       = ""
+image_404    = "img/404-bg.jpg"
 
-logo = "/static/img/avater-cat.png"
-
-header_image = "img/dragon.jpg"
-
-images = ["/static/img/avater-cat.png"]
-
-customCSS = ["/css/custom_post.css"]
-
-SEOTitle = "ほげほげBlog"
-
-description = "ぼちぼちブログをあっぷしていきます"
-keyword = ""
-slogan = ""
-
-image_404 = "img/404-bg.jpg"
 omit_categories = false
-title_404 = "404 ERROR"
+title_404       = "404 ERROR"
 
 # leancloud storage for page view counter
 leancloud_app_id = ""
