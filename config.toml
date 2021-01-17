@@ -169,13 +169,13 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
 #twitter/sumbnail優先表示(head.html)
-thumbnail    = "img/dragon.jpg"
+thumbnail    = "img/coffee.jpg"
 
 # トップページヘッダ画像、サムネイル未指定時のtwitter画像(head.html)
-header_image = "img/post-bg-coffee.jpeg"
+header_image = "img/dragon.jpg"
 
 # 記事一覧アイキャッチ画像
-images       = ["/static/img/avater-cat.png"]
+# images       = ["/static/img/cat.png"]
 
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"
