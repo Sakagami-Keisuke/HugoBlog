@@ -168,10 +168,14 @@ watch = false
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-# header_image = "img/home-bg-jeep.jpg"
+
+logo = "/static/img/avater-cat.png"
+
 header_image = "img/dragon.jpg"
 
 images = ["/static/img/avater-cat.png"]
+
+customCSS = ["/css/custom_post.css"]
 
 SEOTitle = "ほげほげBlog"
 
@@ -203,9 +207,6 @@ sidebar_avatar = "img/avater-cat.png"
 featured_condition_size = 0
 # 注目タグ 表示
 featured_tags = true
-
-
-
 
 about_me = true
 bookmarks = false

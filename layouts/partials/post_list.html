@@ -1,15 +1,32 @@
 <!-- post list -->
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview">
+
     <a href="{{ .Permalink }}">
-        <h2 class="post-title">
-            {{ .Title }}
-        </h2>
-	{{with .Params.subtitle }}
+
+        <div class="customize-self">
+
+            {{ if isset .Params "eyecatch" }}
+            {{ $eyecatch_image := .Params.eyecatch }}
+            {{ with $eyecatch_image }}
+            <img src="{{ . | safeHTML}}" width="45px">
+            {{ end }}
+            {{ end }}
+
+            <span class="blank">&nbsp;&nbsp;</span>
+
+            <h2 class="post-title">
+                {{ .Title }}
+            </h2>
+        </div>
+
+    {{with .Params.subtitle }}
         <h3 class="post-subtitle">
             {{ . }}
         </h3>
-	{{ end }}
+    {{ end }}
+
+
         <div class="post-content-preview">
 	{{ with .Description }}
             {{ . }}
@@ -18,6 +35,7 @@
        {{ end }}
         </div>
     </a>
+
     <p class="post-meta">
     Posted by {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} {{ .Date.Format "Monday, January 2, 2006" }}
     <!-- Don't show "Last Modified on" if update happened on the same day. -->
