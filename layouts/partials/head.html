@@ -1,13 +1,28 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <!-- <meta name="twitter:card" content="summary"> -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:type" content="article">
-
+    
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Thumbnail }}">
     <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Thumbnail }}" />
+    
+    <meta name="title" content="{{ .Site.Params.Title }}" />
+    <meta property="og:title" content="{{ .Site.Params.Title }}" />
+    <meta property="twitter:title" content="{{ .Site.Params.Title }}" />
+    
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    <meta property="og:description" content="{{ .Site.Params.Description }}" />
+    <meta property="twitter:description" content="{{ .Site.Params.Description }}" />
+
+    <meta name="keyword"  content="{{ .Site.Params.keyword }}">
 
     <!-- {{ if isset .Params "thumbnail" }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail}}"">
@@ -17,31 +32,25 @@
     <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" />
     {{ end }} -->
     <!-- {{ if isset .Params "title" }}
-    <meta name="title" content="{{ .Params.title }}" />
-    <meta property="og:title" content="{{ .Params.title }}" />
-    <meta property="twitter:title" content="{{ .Params.title }}" />
-    {{ else }}
-    <meta name="title" content="{{ .Site.Params.title }}" />
-    <meta property="og:title" content="{{ .Site.Params.title }}" />
-    <meta property="twitter:title" content="{{ .Site.Params.title }}" />
-    {{ end }}
-    {{ if .Params.description }}
+    <meta name="title" content="{{ .Params.Title }}" />
+    <meta property="og:title" content="{{ .Params.Title }}" />
+    <meta property="twitter:title" content="{{ .Params.Title }}" />
+    {{ else }} -->
+    <!-- {{ end }} -->
+    <!-- {{ if .Params.description }}
     <meta name="description" content="{{ .Params.description }}">
     <meta property="og:description" content="{{ .Params.description }}" />
     <meta property="twitter:description" content="{{ .Params.description }}" />
-    {{ else }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta property="og:description" content="{{ .Site.Params.description }}" />
-    <meta property="twitter:description" content="{{ .Site.Params.description }}" />
-    {{ end }}
+    {{ else }} -->
+    <!-- {{ end }} -->
 
-    {{ if .Params.summary }}
+    <!-- {{ if .Params.summary }}
     <meta property="twitter:card" content="{{ .Params.summary }}" />
     {{ else }}
     <meta property="twitter:card" content="summary" />
     {{ end }} -->
 
-    <meta name="keyword"  content="{{ .Site.Params.keyword }}">
+   
     <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
     <title>{{ if .Title }}{{ .Title }}-{{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
     <link rel="canonical" href="{{ .URL | relURL }}">
