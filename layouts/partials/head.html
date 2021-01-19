@@ -2,33 +2,52 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 
-    <meta name="twitter:card" content="summary">
-    <!-- <meta name="twitter:card" content="summary_large_image"> -->
-    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+<!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup -->
+<!-- twittercardtag -->
+<!-- twittercard  summary、summary_large_image、app、player -->
+    <meta name="twitter:card"           content="summary">
+<!-- OpenGraph -->
+    <!-- マークアップにog：type、og：title、og：descriptionが存在するが
+        twitter：cardが存在しない場合、サマリーカードがレンダリングされることがある-->
+    <meta property="og:type"            content="article">
+    <meta property="og:title"           content="{{ .Site.Params.Twittertitle }}" />
+    <meta property="og:description"     content="{{ .Site.Params.Description }}" />
 
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-
-    <meta property="og:type" content="article">
-    
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Thumbnail }}">
-    
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Thumbnail }}" />
-    
-    <meta name="title" content="{{ .Site.Params.Title }}" />
-    
-    <meta property="og:title" content="{{ .Site.Params.Title }}" />
-    
-    <meta property="twitter:title" content="{{ .Site.Params.Title }}" />
-    
-    <meta name="description" content="{{ .Site.Params.Description }}">
-    
-    <meta property="og:description" content="{{ .Site.Params.Description }}" />
-    
+<!-- summary、summary_large_image、プレーヤーカードで使用 -->
+<!-- twitterユーザー名 -->
+    <meta property="twitter:site"        content="{{ .Site.Params.Twitterusername  }}">
+<!-- twitterID -->
+    <meta property="twitter:site : id"   content="{{ .Site.Params.Twitterid  }}">
+<!-- @コンテンツ作成者のユーザー名 --><!-- summary_large_imageカードで使用 -->
+    <meta property="twitter:creator"     content="{{ .Site.Params.Creator }}">
+<!-- @コンテンツ作成者のユーザーID summary、summary_large_imageカードで使用 -->
+    <meta property="twitter:creator:id"  content="{{ .Site.Params.Creatorid }}">
+<!-- コンテンツの説明（最大200文字） summary、summary_large_image、プレーヤーカードで使用 -->
     <meta property="twitter:description" content="{{ .Site.Params.Description }}" />
+<!-- コンテンツのタイトル（最大70文字） summary、summary_large_image、プレーヤーカードで使用 -->
+    <meta property="twitter:title"       content="{{ .Site.Params.Twittertitle }}" />
+<!-- カードで使用する画像のURL。画像のサイズは5MB未満。JPG、PNG、WEBP、GIF形式がサポート。
+    アニメーションGIFの最初のフレームのみが使用。SVGは非サポート。 -->
+<!-- summary、summary_large_image、プレーヤーカードで使用 -->
+    <meta property="twitter:image"       content="{{ .Site.BaseURL }}{{ .Site.Params.Twitterthumbnail }}" />
 
-    <meta name="keyword"  content="{{ .Site.Params.keyword }}">
+
+
+
+
+    <!-- <meta property="og:url" content="{{ .Site.BaseURL }}" /> -->
+    <!-- <meta property="og:site_name" content="{{ .Site.Title }}"> -->
+    <!-- <meta property="og:title" content="{{ .Site.Params.Title }}" /> -->
+  
+    <!-- <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Thumbnail }}"> -->
+
+
+
+
+    <!-- <meta name="title" content="{{ .Site.Params.Title }}" /> -->
+    <!-- <meta name="description" content="{{ .Site.Params.Description }}"> -->
+    <!-- <meta name="keyword"  content="{{ .Site.Params.keyword }}"> -->
 
     <!-- {{ if isset .Params "thumbnail" }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail}}"">

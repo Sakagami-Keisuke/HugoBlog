@@ -168,12 +168,18 @@ watch = false
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
+header_image   = "/img/coffee.jpg"
 
 # twittercard画像設定で参照(Blog/layouts/partials/head.html)
-header_image = "/img/coffee.jpg"
-thumbnail    = "/img/coffee.jpg"
-title        = "ほげほげBlog"
-description  = "これからブログをやっていきます"
+twitterusername  = "sakaP🌈さかぴ 如実知見"
+twitterid        = "@slope_top_kei"
+creator          = "KEISUKE_SAKAGAMI"
+creatorid        = "@slope_top_ke"
+description      = "私の価値観、学び、人生経験をありのままにアウトプットするブログです"
+twittertitle     = "ほげほげBlog"
+twitterthumbnail = "/img/coffee.jpg"
+
+
 
 customCSS    = ["/css/custom_post.css"]
 SEOTitle     = "ほげほげBlog"
