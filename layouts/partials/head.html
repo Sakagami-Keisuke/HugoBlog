@@ -13,6 +13,7 @@
     <meta property="og:type"            content="article">
     <meta property="og:title"           content="{{ .Params.title }}" />
     <meta property="og:description"     content="{{ .Params.description }}" />
+    <meta property="og:image"           content="{{ .Site.BaseURL }}{{ .Site.Params.Twitterthumbnail }}" />
 
 <!-- summary、summary_large_image、プレーヤーカードで使用 -->
 <!-- twitterユーザー名 -->
@@ -24,58 +25,26 @@
 <!-- @コンテンツ作成者のユーザーID summary、summary_large_imageカードで使用 -->
     <meta property="twitter:creator:id"  content="{{ .Site.Params.Creatorid }}">
 <!-- コンテンツの説明（最大200文字） summary、summary_large_image、プレーヤーカードで使用 -->
-    <meta property="twitter:description" content="{{ .Params.description }}" />
+    <!-- <meta property="twitter:description" content="{{ .Params.description }}" /> -->
 <!-- コンテンツのタイトル（最大70文字） summary、summary_large_image、プレーヤーカードで使用 -->
-    <meta property="twitter:title"       content="{{ .Params.title }}" />
+    <!-- <meta property="twitter:title"       content="{{ .Params.title }}" /> -->
 <!-- カードで使用する画像のURL。画像のサイズは5MB未満。JPG、PNG、WEBP、GIF形式がサポート。
     アニメーションGIFの最初のフレームのみが使用。SVGは非サポート。 -->
 <!-- summary、summary_large_image、プレーヤーカードで使用 -->
-    <meta property="twitter:image"       content="{{ .Site.BaseURL }}{{ .Site.Params.Twitterthumbnail }}" />
+    <!-- <meta property="twitter:image"       content="{{ .Site.BaseURL }}{{ .Site.Params.Twitterthumbnail }}" /> -->
 
 
 
+<!-- Facebook用設定 -->
+<!-- <meta property="fb:app_id" content="App-ID（15文字の半角数字）" />
+もしくは
+<meta property="fb:admins" content="adminID（15文字の半角数字）" /> -->
+    <!-- <meta property="og:url"             content="{{ .Site.BaseURL }}" />
+    <meta property="og:site_name"       content="{{ .Site.Params.Twitterusername  }}" />
+    <meta property="og:description"     content="{{ .Params.description }}" /> -->
 
 
-    <!-- <meta property="og:url" content="{{ .Site.BaseURL }}" /> -->
-    <!-- <meta property="og:site_name" content="{{ .Site.Title }}"> -->
-    <!-- <meta property="og:title" content="{{ .Site.Params.Title }}" /> -->
-  
-    <!-- <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Thumbnail }}"> -->
 
-
-
-
-    <!-- <meta name="title" content="{{ .Site.Params.Title }}" /> -->
-    <!-- <meta name="description" content="{{ .Site.Params.Description }}"> -->
-    <!-- <meta name="keyword"  content="{{ .Site.Params.keyword }}"> -->
-
-    <!-- {{ if isset .Params "thumbnail" }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail}}"">
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
-    {{ else }}
-    <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}">
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" />
-    {{ end }} -->
-    <!-- {{ if isset .Params "title" }}
-    <meta name="title" content="{{ .Params.Title }}" />
-    <meta property="og:title" content="{{ .Params.Title }}" />
-    <meta property="twitter:title" content="{{ .Params.Title }}" />
-    {{ else }} -->
-    <!-- {{ end }} -->
-    <!-- {{ if .Params.description }}
-    <meta name="description" content="{{ .Params.description }}">
-    <meta property="og:description" content="{{ .Params.description }}" />
-    <meta property="twitter:description" content="{{ .Params.description }}" />
-    {{ else }} -->
-    <!-- {{ end }} -->
-
-    <!-- {{ if .Params.summary }}
-    <meta property="twitter:card" content="{{ .Params.summary }}" />
-    {{ else }}
-    <meta property="twitter:card" content="summary" />
-    {{ end }} -->
-
-   
     <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
     <title>{{ if .Title }}{{ .Title }}-{{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
     <link rel="canonical" href="{{ .URL | relURL }}">
