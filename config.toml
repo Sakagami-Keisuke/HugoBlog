@@ -1,7 +1,7 @@
 # ルートパス
 baseurl = "https://relaxed-swirles-2507d0.netlify.app"
 # ルートページ ブログタイトル
-title = "ほげほげBlog"
+title = "sakaP🌈さかぴのブログ"
 # 著者
 author = "KEISUKE SAKAGAMI"
 # submoduleテーマ
@@ -176,13 +176,13 @@ twitterid        = "@slope_top_kei"
 creator          = "KEISUKE_SAKAGAMI"
 creatorid        = "@slope_top_ke"
 description      = "私の価値観、学び、人生経験をありのままにアウトプットするブログです"
-twittertitle     = "ほげほげBlog"
+twittertitle     = "sakaP🌈さかぴのBlog"
 twitterthumbnail = "/img/coffee.jpg"
 
 
 
 customCSS    = ["/css/custom_post.css"]
-SEOTitle     = "ほげほげBlog"
+
 image_404    = "img/404.jpg"
 
 keyword      = ""
