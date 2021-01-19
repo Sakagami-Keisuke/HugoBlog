@@ -25,5 +25,14 @@
       <description>はじめに 結論 ~~~について ~~~~問題点 ~~~~解決策 まとめ</description>
     </item>
     
+    <item>
+      <title>article_title: 記事1のタイトルテキスト</title>
+      <link>https://relaxed-swirles-2507d0.netlify.app/post/20210117-1/</link>
+      <pubDate>Sun, 17 Jan 2021 14:13:08 +0900</pubDate>
+      
+      <guid>https://relaxed-swirles-2507d0.netlify.app/post/20210117-1/</guid>
+      <description>はじめに 結論 ~~~について ~~~~問題点 ~~~~解決策 まとめ</description>
+    </item>
+    
   </channel>
 </rss>
