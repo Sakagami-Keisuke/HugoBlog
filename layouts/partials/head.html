@@ -12,7 +12,7 @@
         twitter：cardが存在しない場合、サマリーカードがレンダリングされることがある-->
     <meta property="og:type"            content="article">
     <meta property="og:title"           content="{{ .Params.title }}" />
-    <meta property="og:description"     content="{{ .Site.Params.Description }}" />
+    <meta property="og:description"     content="{{ .Params.description }}" />
 
 <!-- summary、summary_large_image、プレーヤーカードで使用 -->
 <!-- twitterユーザー名 -->
@@ -24,7 +24,7 @@
 <!-- @コンテンツ作成者のユーザーID summary、summary_large_imageカードで使用 -->
     <meta property="twitter:creator:id"  content="{{ .Site.Params.Creatorid }}">
 <!-- コンテンツの説明（最大200文字） summary、summary_large_image、プレーヤーカードで使用 -->
-    <meta property="twitter:description" content="{{ .Site.Params.Description }}" />
+    <meta property="twitter:description" content="{{ .Params.description }}" />
 <!-- コンテンツのタイトル（最大70文字） summary、summary_large_image、プレーヤーカードで使用 -->
     <meta property="twitter:title"       content="{{ .Params.title }}" />
 <!-- カードで使用する画像のURL。画像のサイズは5MB未満。JPG、PNG、WEBP、GIF形式がサポート。
