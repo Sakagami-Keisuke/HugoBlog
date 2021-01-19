@@ -1,6 +1,6 @@
 ---
-title:       "article_title: 記事のタイトルテキスト"
-subtitle:    "article_subtitle: 記事のサブタイトル"
+title:       "sakaP🌈さかぴのブログ: 記事1のタイトルテキスト"
+subtitle:    "subtitle: 記事1のサブタイトル"
 description: "article_discription: 記事の概要説明文"
 date:        {{ .Date }}
 author:      "KEISUKE SAKAGAMI"
