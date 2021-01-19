@@ -11,7 +11,7 @@
     <!-- マークアップにog：type、og：title、og：descriptionが存在するが
         twitter：cardが存在しない場合、サマリーカードがレンダリングされることがある-->
     <meta property="og:type"            content="article">
-    <meta property="og:title"           content="{{ .Site.Params.Title }}" />
+    <meta property="og:title"           content="{{ .Params.title }}" />
     <meta property="og:description"     content="{{ .Site.Params.Description }}" />
 
 <!-- summary、summary_large_image、プレーヤーカードで使用 -->
@@ -26,7 +26,7 @@
 <!-- コンテンツの説明（最大200文字） summary、summary_large_image、プレーヤーカードで使用 -->
     <meta property="twitter:description" content="{{ .Site.Params.Description }}" />
 <!-- コンテンツのタイトル（最大70文字） summary、summary_large_image、プレーヤーカードで使用 -->
-    <meta property="twitter:title"       content="{{ .Site.Params.Twittertitle }}" />
+    <meta property="twitter:title"       content="{{ .Params.title }}" />
 <!-- カードで使用する画像のURL。画像のサイズは5MB未満。JPG、PNG、WEBP、GIF形式がサポート。
     アニメーションGIFの最初のフレームのみが使用。SVGは非サポート。 -->
 <!-- summary、summary_large_image、プレーヤーカードで使用 -->
