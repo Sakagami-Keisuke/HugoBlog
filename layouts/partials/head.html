@@ -85,4 +85,9 @@
 
     <!-- {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }} -->
+
+<!-- カスタムCSSを参照する -->
+    <!-- {{ range .Site.Params.customCSS }}
+    <link rel="stylesheet" href="{{ . | absURL}}">
+    {{ end }} -->
 </head>
