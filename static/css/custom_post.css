@@ -1,5 +1,6 @@
 .post-container img{
   float: left;
+  transform: scale(0.7);
 }
 
 .post-title {
