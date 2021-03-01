@@ -1,4 +1,5 @@
 # HugoBlog　Image
+https://603d5f6c01d02e2b06890c7f--relaxed-swirles-2507d0.netlify.app/
 ![image](https://user-images.githubusercontent.com/60636597/109563257-dfdf7400-7b22-11eb-82e7-8eab7d66d58a.png)
 # knowledge - Qiita投稿
 1 [git init から git push までおさらい](https://qiita.com/SakagamiKeisuke/items/ec3fe9151d52b9f97bfe)<br>
